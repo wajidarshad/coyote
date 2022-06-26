@@ -15,11 +15,8 @@ print ('Glycoprotein Identification...')
 print ('Higher the score more chances of a protein to be a Glycoprotein.')
 
 for rec in all_seqs_recs:
-    print (rec.id)
     if validate(rec.seq)==0:
         print('Input sequence is not valid')
     prediction_results=predict_glycoprotein(rec.seq)
-    if prediction_results>0.0:
-        print("This is propably a Glycoprotein with score:",prediction_results)
-    else:
-        print("This is propably not a Glycoprotein with score:",prediction_results)
+    print("The predicted score for the protein "+str(rec.id)+" to be a Glycoprotein is:",prediction_results)
+
