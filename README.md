@@ -7,4 +7,4 @@ COYOTE: Sequence Derived Structural Descriptors Based Computational Identificati
 3- Propy-1.0 (https://code.google.com/archive/p/protpy/downloads)
 
 # Usage
-run 'main_runner.py' by changing 'example.fasta' at line no. 12 with path of your own fasta file
+run 'main_runner.py' by changing 'example.fasta' at line no. 13 with path of your own fasta file
